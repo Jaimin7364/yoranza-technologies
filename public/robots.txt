@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.yoranza.tech
+
+# Sitemaps
+Sitemap: https://www.yoranza.tech/sitemap.xml
