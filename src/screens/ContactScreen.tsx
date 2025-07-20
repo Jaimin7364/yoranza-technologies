@@ -178,7 +178,7 @@ const ContactScreen = () => {
                   </div>
                   <div>
                     <h3 className="text-gray-900 font-semibold">Email Us</h3>
-                    <p className="text-gray-600">contact@yoranza.com</p>
+                    <p className="text-gray-600">contact@yoranza.tech</p>
                   </div>
                 </div>
               </div>
@@ -190,7 +190,7 @@ const ContactScreen = () => {
                   </div>
                   <div>
                     <h3 className="text-gray-900 font-semibold">Call Us</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+91 9909307364</p>
                   </div>
                 </div>
               </div>
@@ -202,7 +202,7 @@ const ContactScreen = () => {
                   </div>
                   <div>
                     <h3 className="text-gray-900 font-semibold">Visit Us</h3>
-                    <p className="text-gray-600">123 Tech Street, Silicon Valley</p>
+                    <p className="text-gray-600">Tirupati Plaza , Siddhpur</p>
                   </div>
                 </div>
               </div>
