@@ -77,7 +77,7 @@ const AboutScreen = () => {
       setCurrentStatIndex((prev) => (prev + 1) % stats.length);
     }, 2000);
     return () => clearInterval(timer);
-  }, []);
+  }, []); // stats is static, so no dependency needed
 
   // Intersection observer simulation
   useEffect(() => {

@@ -315,7 +315,7 @@ export default function HackathonSection() {
             <MapPin className="w-8 h-8 text-purple-400 mx-auto mb-4" />
             <h4 className="text-lg font-semibold text-white mb-2">Theme</h4>
             <p className="text-gray-300">Web, App & ML</p>
-            <p className="text-sm text-gray-400">"Build. Innovate. Disrupt."</p>
+            <p className="text-sm text-gray-400">&quot;Build. Innovate. Disrupt.&quot;</p>
           </div>
         </div>
 

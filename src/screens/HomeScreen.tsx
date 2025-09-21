@@ -12,11 +12,7 @@ import {
   Users, 
   Award,
   ChevronDown,
-  Play,
   Star,
-  CheckCircle,
-  TrendingUp,
-  Globe,
   Lightbulb,
   Target
 } from 'lucide-react';
@@ -41,7 +37,7 @@ export default function HomeScreen() {
       setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, []); // testimonials is static, so no dependency needed
 
   const services = [
     {
