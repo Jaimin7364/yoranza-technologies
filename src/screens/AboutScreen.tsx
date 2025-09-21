@@ -74,10 +74,10 @@ const AboutScreen = () => {
   // Stats animation
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentStatIndex((prev) => (prev + 1) % stats.length);
+      setCurrentStatIndex((prev) => (prev + 1) % 4); // 4 stats total
     }, 2000);
     return () => clearInterval(timer);
-  }, []); // stats is static, so no dependency needed
+  }, []);
 
   // Intersection observer simulation
   useEffect(() => {

@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import { 
   X, 
   Trophy, 
-  Calendar, 
   Users, 
   ExternalLink, 
   Zap, 
@@ -74,7 +73,7 @@ export default function HackathonWelcomePopup() {
       const timer = setInterval(updateCountdown, 1000);
       return () => clearInterval(timer);
     }
-  }, [isVisible]);
+  }, [isVisible, hackathonDate]);
 
   const closePopup = () => {
     setIsVisible(false);
@@ -186,7 +185,7 @@ export default function HackathonWelcomePopup() {
             </div>
             <div className="flex items-center gap-2 text-sm text-gray-300">
               <Code className="w-4 h-4 text-purple-400" />
-              Theme: "Build. Innovate. Disrupt."
+              Theme: &quot;Build. Innovate. Disrupt.&quot;
             </div>
           </div>
 

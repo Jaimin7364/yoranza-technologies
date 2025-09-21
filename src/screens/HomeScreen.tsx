@@ -34,10 +34,10 @@ export default function HomeScreen() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
+      setCurrentTestimonial((prev) => (prev + 1) % 1); // Only 1 testimonial for now
     }, 5000);
     return () => clearInterval(interval);
-  }, []); // testimonials is static, so no dependency needed
+  }, []);
 
   const services = [
     {

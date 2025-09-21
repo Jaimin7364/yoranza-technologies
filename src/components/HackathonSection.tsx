@@ -11,18 +11,12 @@ import {
   Clock,
   MapPin,
   Star,
-  Gift,
   Lightbulb,
   Award,
   ExternalLink,
   X,
   CheckCircle,
-  DollarSign,
-  Briefcase,
-  Coffee,
-  Wifi,
-  Camera,
-  Gamepad2
+  DollarSign
 } from 'lucide-react';
 
 export default function HackathonSection() {
@@ -70,14 +64,7 @@ export default function HackathonSection() {
     const timer = setInterval(updateCountdown, 1000);
 
     return () => clearInterval(timer);
-  }, []);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentHighlight((prev) => (prev + 1) % highlights.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
+  }, [hackathonDate]);
 
   const highlights = [
     {
@@ -105,6 +92,13 @@ export default function HackathonSection() {
       color: "from-pink-500 to-red-500"
     }
   ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentHighlight((prev) => (prev + 1) % highlights.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [highlights.length]);
 
   const features = [
     {
@@ -301,7 +295,7 @@ export default function HackathonSection() {
             <Calendar className="w-8 h-8 text-red-400 mx-auto mb-4" />
             <h4 className="text-lg font-semibold text-white mb-2">Registration Deadline</h4>
             <p className="text-gray-300">October 3rd, 2025</p>
-            <p className="text-sm text-red-400 font-semibold">Don't miss out!</p>
+            <p className="text-sm text-red-400 font-semibold">Don&apos;t miss out!</p>
           </div>
           
           <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20 text-center">
@@ -323,7 +317,7 @@ export default function HackathonSection() {
         <div className="text-center">
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 max-w-2xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Register Before It's Too Late!
+              Register Before It&apos;s Too Late!
             </h3>
             <p className="text-gray-300 mb-8">
               Join hundreds of developers, designers, and innovators in this epic 48-hour coding marathon! 
@@ -358,7 +352,7 @@ export default function HackathonSection() {
 
             <div className="mt-6 flex items-center justify-center gap-2 text-sm text-gray-400">
               <Star className="w-4 h-4 text-yellow-400" />
-              {timeLeft.days > 0 ? `Only ${timeLeft.days} days left to register - Don't wait!` : 'Registration closing soon - Register now!'}
+              {timeLeft.days > 0 ? `Only ${timeLeft.days} days left to register - Don&apos;t wait!` : 'Registration closing soon - Register now!'}
             </div>
           </div>
         </div>
@@ -543,7 +537,7 @@ export default function HackathonSection() {
               <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-xl p-6 border border-blue-500/30">
                 <h3 className="text-xl font-bold text-white mb-3 text-center">Ready to Join?</h3>
                 <p className="text-gray-300 text-center mb-4">
-                  Don't miss this incredible opportunity to innovate and compete!
+                  Don&apos;t miss this incredible opportunity to innovate and compete!
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <a 
