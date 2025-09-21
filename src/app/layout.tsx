@@ -1,6 +1,7 @@
 // src/app/layout.tsx
 import './globals.css';
 import type { ReactNode } from 'react';
+import HackathonWelcomePopup from '@/components/HackathonWelcomePopup';
 
 export const metadata = {
   title: 'Yoranza Technologies',
@@ -18,7 +19,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-900">{children}</body>
+      <body className="bg-gray-50 text-gray-900">
+        {children}
+        <HackathonWelcomePopup />
+      </body>
     </html>
   );
 }
