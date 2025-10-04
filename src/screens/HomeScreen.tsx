@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 import Header from '../components/Header';
-import HackathonSection from '../components/HackathonSection';
-import HackathonWelcomePopup from '../components/HackathonWelcomePopup';
 import { 
   ArrowRight, 
   Code, 
@@ -97,7 +95,6 @@ export default function HomeScreen() {
   return (
     <main className="min-h-screen bg-gray-50 overflow-hidden">
       <Header />
-      <HackathonWelcomePopup />
       
       {/* Floating Background Elements */}
       <div className="fixed inset-0 pointer-events-none">
@@ -175,9 +172,6 @@ export default function HomeScreen() {
           <ChevronDown className="w-6 h-6 text-gray-400" />
         </div>
       </section>
-
-      {/* Hackathon Section */}
-      <HackathonSection />
 
       {/* Stats Section */}
       <section className="py-20 bg-white/50 backdrop-blur-sm">
