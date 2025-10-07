@@ -1,0 +1,170 @@
+{
+  "internsData": [
+    {
+      "id": 1,
+      "name": "Priya Sharma",
+      "role": "Web Development Intern",
+      "duration": "June 2024 - August 2024",
+      "location": "Remote",
+      "university": "Gujarat Technological University",
+      "profileImage": "/api/placeholder/100/100",
+      "skills": ["React", "Node.js", "MongoDB", "JavaScript"],
+      "projects": [
+        {
+          "title": "E-commerce Dashboard",
+          "description": "Built a comprehensive admin dashboard for an e-commerce platform",
+          "technologies": ["React", "Node.js", "Express", "MongoDB"]
+        }
+      ],
+      "achievements": [
+        "Completed 3 major projects",
+        "Improved application performance by 40%",
+        "Mentored 2 junior interns"
+      ],
+      "testimonial": "Working at Yoranza was an incredible learning experience. The mentorship and real-world projects helped me grow tremendously as a developer.",
+      "rating": 5,
+      "linkedIn": "/",
+      "github": "/"
+    },
+    {
+      "id": 2,
+      "name": "Arjun Patel",
+      "role": "Mobile App Development Intern",
+      "duration": "March 2024 - May 2024",
+      "location": "Ahmedabad",
+      "university": "L.D. College of Engineering",
+      "profileImage": "/api/placeholder/100/100",
+      "skills": ["React Native", "Flutter", "Firebase", "Dart"],
+      "projects": [
+        {
+          "title": "Fitness Tracking App",
+          "description": "Developed a cross-platform mobile app for fitness tracking",
+          "technologies": ["Flutter", "Firebase", "Dart", "REST APIs"]
+        }
+      ],
+      "achievements": [
+        "Delivered 2 mobile applications",
+        "Implemented push notifications",
+        "Reduced app load time by 50%"
+      ],
+      "testimonial": "The hands-on experience and supportive team at Yoranza helped me understand mobile development deeply. I learned more in 3 months than I did in my entire academic year.",
+      "rating": 5,
+      "linkedIn": "/",
+      "github": "/"
+    },
+    {
+      "id": 3,
+      "name": "Sneha Joshi",
+      "role": "UI/UX Design Intern",
+      "duration": "January 2024 - March 2024",
+      "location": "Surat",
+      "university": "Sardar Vallabhbhai National Institute of Technology",
+      "profileImage": "/api/placeholder/100/100",
+      "skills": ["Figma", "Adobe XD", "Prototyping", "User Research"],
+      "projects": [
+        {
+          "title": "Healthcare Portal Redesign",
+          "description": "Redesigned the user interface for a healthcare management portal",
+          "technologies": ["Figma", "Adobe XD", "Principle", "Miro"]
+        }
+      ],
+      "achievements": [
+        "Improved user engagement by 60%",
+        "Created 5+ design systems",
+        "Conducted user research for 3 projects"
+      ],
+      "testimonial": "Yoranza provided me with exposure to real client projects and taught me the importance of user-centered design. The feedback and guidance were invaluable.",
+      "rating": 5,
+      "linkedIn": "/",
+      "portfolio": "/"
+    },
+    {
+      "id": 4,
+      "name": "Rahul Mehta",
+      "role": "Cloud & DevOps Intern",
+      "duration": "September 2023 - November 2023",
+      "location": "Vadodara",
+      "university": "Maharaja Sayajirao University",
+      "profileImage": "/api/placeholder/100/100",
+      "skills": ["AWS", "Docker", "Kubernetes", "Jenkins"],
+      "projects": [
+        {
+          "title": "CI/CD Pipeline Setup",
+          "description": "Implemented automated deployment pipelines for multiple client projects",
+          "technologies": ["AWS", "Docker", "Jenkins", "Terraform"]
+        }
+      ],
+      "achievements": [
+        "Reduced deployment time by 70%",
+        "Set up monitoring for 5+ applications",
+        "Automated infrastructure provisioning"
+      ],
+      "testimonial": "The cloud infrastructure projects at Yoranza gave me practical experience with enterprise-level systems. I gained expertise in modern DevOps practices.",
+      "rating": 5,
+      "linkedIn": "/",
+      "github": "/"
+    }
+  ],
+  "internshipStats": [
+    {
+      "number": "50+",
+      "label": "Interns Trained",
+      "iconName": "Users"
+    },
+    {
+      "number": "95%",
+      "label": "Success Rate",
+      "iconName": "TrendingUp"
+    },
+    {
+      "number": "4.8/5",
+      "label": "Average Rating",
+      "iconName": "Star"
+    },
+    {
+      "number": "80%",
+      "label": "Hired Full-time",
+      "iconName": "Award"
+    }
+  ],
+  "featuredInterns": [
+    {
+      "name": "Priya Sharma",
+      "role": "Web Development Intern",
+      "duration": "June 2024 - August 2024",
+      "achievement": "Improved application performance by 40%",
+      "rating": 5
+    },
+    {
+      "name": "Arjun Patel",
+      "role": "Mobile App Development Intern",
+      "duration": "March 2024 - May 2024",
+      "achievement": "Delivered 2 mobile applications",
+      "rating": 5
+    },
+    {
+      "name": "Sneha Joshi",
+      "role": "UI/UX Design Intern",
+      "duration": "January 2024 - March 2024",
+      "achievement": "Improved user engagement by 60%",
+      "rating": 5
+    }
+  ],
+  "internshipHighlights": [
+    {
+      "number": "50+",
+      "label": "Interns Trained",
+      "iconName": "Users"
+    },
+    {
+      "number": "95%",
+      "label": "Success Rate",
+      "iconName": "TrendingUp"
+    },
+    {
+      "number": "80%",
+      "label": "Hired Full-time",
+      "iconName": "Award"
+    }
+  ]
+}

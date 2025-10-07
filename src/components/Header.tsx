@@ -10,13 +10,15 @@ const screensObj = {
   ABOUT: '/about',
   CONTACT: '/contact',
   SERVICES: '/services',
+  INTERNS: '/interns',
 };
 
 const screens = [
   { label: 'Home', path: screensObj.HOME },
   { label: 'About', path: screensObj.ABOUT },
-  { label: 'Contact', path: screensObj.CONTACT },
   { label: 'Services', path: screensObj.SERVICES },
+  { label: 'Interns', path: screensObj.INTERNS },
+  { label: 'Contact', path: screensObj.CONTACT },
 ];
 
 export default function Header() {

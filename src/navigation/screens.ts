@@ -5,6 +5,7 @@ const routes = {
   ABOUT: '/about',
   CONTACT: '/contact',
   SERVICES: '/services',
+  INTERNS: '/interns',
 };
 
 export default routes;

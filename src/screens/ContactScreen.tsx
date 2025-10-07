@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle, Globe, Code, Smartphone } from 'lucide-react';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 // Mock Header component since it's not available
 const Header1 = () => (
   <div className="bg-white/70 backdrop-blur-sm border-b border-gray-200 shadow-sm">
@@ -152,9 +153,10 @@ const ContactScreen = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50">
-      <Header />
-      <Header1 />
+    <main>
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50">
+        <Header />
+        <Header1 />
 
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid lg:grid-cols-2 gap-12">
@@ -381,6 +383,9 @@ const ContactScreen = () => {
         </div>
       </div>
     </div>
+    
+    <Footer />
+    </main>
   );
 };
 

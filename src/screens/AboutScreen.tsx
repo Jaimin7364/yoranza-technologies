@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Code, Lightbulb, Users, Award, ArrowRight, Heart, Zap, Globe, Star } from 'lucide-react';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const AboutScreen = () => {
   const [activeSection, setActiveSection] = useState('mission');
@@ -88,9 +89,10 @@ const AboutScreen = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-blue-50">
-      < Header />
-      {/* Hero Section */}
+    <main>
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-blue-50">
+        < Header />
+        {/* Hero Section */}
       <div className={`relative overflow-hidden transition-all duration-1000 ${isVisible.hero ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         <div className="absolute inset-0 bg-gradient-to-r from-purple-100/60 to-pink-100/60 backdrop-blur-sm"></div>
         <div className="relative z-10 px-6 py-20 text-center">
@@ -290,6 +292,9 @@ const AboutScreen = () => {
         </div>
       </div>
     </div>
+      
+    <Footer />
+    </main>
   );
 };
 

@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
+import InternsSection from '../components/InternsSection';
 import { 
   ArrowRight, 
   Code, 
@@ -235,6 +237,9 @@ export default function HomeScreen() {
         </div>
       </section>
 
+      {/* Interns Section */}
+      <InternsSection />
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-gray-900 via-blue-900 to-gray-900 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
@@ -259,6 +264,8 @@ export default function HomeScreen() {
           </div>
         </div>
       </section>
+
+      <Footer />
 
       <style jsx>{`
         @keyframes fadeInUp {
