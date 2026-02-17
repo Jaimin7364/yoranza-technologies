@@ -34,7 +34,7 @@ export default function HomeScreen() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentTestimonial((prev) => (prev + 1) % 1); // Only 1 testimonial for now
+      setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
     }, 5000);
     return () => clearInterval(interval);
   }, []);
@@ -72,19 +72,13 @@ export default function HomeScreen() {
       position: "CEO, LexMark",
       content: "Yoranza developed a digital attendance module for Lexmar Farma that tracks employee check-ins with real-time location. It has streamlined our operations and improved accountability.",
       rating: 5
+    },
+    {
+      name: "ShriDev Spices",
+      position: "Owner, ShriDev Spices",
+      content: "Yoranza created a comprehensive Flutter mobile app for invoice and customer management. The app has revolutionized how we handle sales, track payments, and manage inventory. The professional PDF invoice generation and real-time payment tracking features have significantly improved our business operations.",
+      rating: 5
     }
-    // {
-    //   name: "Michael Chen",
-    //   position: "Founder, StartupXYZ",
-    //   content: "The team delivered beyond our expectations. Highly recommended!",
-    //   rating: 5
-    // },
-    // {
-    //   name: "Emily Rodriguez",
-    //   position: "CEO, InnovateCo",
-    //   content: "Professional, innovative, and results-driven. Perfect partnership!",
-    //   rating: 5
-    // }
   ];
 
   const stats = [
