@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.yoranza.tech
+Host: https://www.yoranzatechnologies.in
 
 # Sitemaps
-Sitemap: https://www.yoranza.tech/sitemap.xml
+Sitemap: https://www.yoranzatechnologies.in/sitemap.xml

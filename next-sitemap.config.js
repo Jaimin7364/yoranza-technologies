@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.yoranza.tech',
+  siteUrl: 'https://www.yoranzatechnologies.in',
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: 'weekly',

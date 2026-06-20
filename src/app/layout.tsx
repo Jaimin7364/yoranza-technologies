@@ -9,9 +9,9 @@ export const metadata = {
   icons: {
     icon: '/icon.png',
   },
-  metadataBase: new URL('https://www.yoranza.tech'), // ✅ update to www
+  metadataBase: new URL('https://www.yoranzatechnologies.in'), // ✅ update to www
   alternates: {
-    canonical: '/', // this becomes https://www.yoranza.tech/
+    canonical: '/', // this becomes https://www.yoranzatechnologies.in/
   },
 };
 
