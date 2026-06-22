@@ -7,7 +7,12 @@ export const metadata = {
   description:
     'Yoranza Technologies empowers businesses with cutting-edge IT solutions, cloud computing services, and dynamic web & app development. Experience innovation, scalability, and interactive digital transformation tailored for your success.',
   icons: {
-    icon: '/icon.png',
+    icon: [
+      { url: '/icon.png', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    shortcut: '/icon.png',
+    apple: '/icon.png',
   },
   metadataBase: new URL('https://www.yoranzatechnologies.in'), // ✅ update to www
   alternates: {
